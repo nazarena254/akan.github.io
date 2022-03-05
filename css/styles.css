@@ -255,14 +255,16 @@
     border-radius: 5px;
     margin-top: 15px;
   }
- #up-button{
+  #up-button{
     background-color: #007AF3;
-    border: 0;
-    padding: 8px;
+    padding: 12px;
     color: white;
+    text-decoration: none;
+    width: 12 0px;
+    font-size: 15px;
     font-weight: bold;
-    font-size: 16px;
-    border-radius: 5px;
-    margin-top: 15px;   
- }   
- 
+    margin-top: 335px;
+    margin-left: 800px;
+    float: right;
+    border-radius: 5px;  
+  }  
