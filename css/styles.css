@@ -1,3 +1,6 @@
+html {
+	scroll-behavior: smooth;
+}
 @media screen and (max-width: 600px) {
     .navbar a {
       float: none;
@@ -149,6 +152,32 @@ section{
 h4{
     font-size: large;
 }
+.contact-section{
+    margin-top: 10px 20px;
+    float: left;
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+input,textarea{
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius:5px;
+    border: 1px solid rgb(177, 241, 250);
+    box-sizing:border-box;
+    
+}
+.send-message {
+    background-color:#007AF3 ;
+    color: white;
+    font-weight: bold;
+    font-size:15px ;
+    border: none;
+    margin-bottom: 10px;
+} 
+
 
 
 
