@@ -37,5 +37,5 @@ Distributed under MIT license.
 Copyright (c) 2022
 
 ## Support and Contact
-Incase of a bug email me
+Incase of a bug email me.</br>
 <renahwamburah@gmail.com>
