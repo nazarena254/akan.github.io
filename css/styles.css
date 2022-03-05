@@ -1,0 +1,11 @@
+@media screen and (max-width: 600px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
+  #main-body{
+     background-color: #35D6ED;
+     /* margin: 20px; */
+     font-family: Roboto;
+  }
