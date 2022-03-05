@@ -51,6 +51,50 @@ ol{
 section{
    padding:50px,50px;
 }
+.hero{
+    text-align: center;
+    /* padding-left: 280px; */
+}
+.heading{
+    font-weight: bold;
+    font-size: 2.3em;
+    letter-spacing: 3px;
+    color: rgb(65, 70, 70);
+}
+
+#heading1{
+   margin-top: 2em;
+}
+#parax{
+    color: #007AF3;
+    letter-spacing: 1.2px;
+    font-size: 1.2em;
+}
+#paray{
+   letter-spacing: 1.2px;
+   font-size: 1.2em;
+}
+#ghana{
+   float: right;
+   padding-top: 150px; 
+   overflow: auto;
+   }
+#baby{
+   height: 280px;
+   width: 350px;
+}
+.btnlike{
+   background-color: #007AF3;
+   padding: 10px;
+   color: white;
+   text-decoration: none;
+   width: 12 0px;
+   font-size: 15px;
+   font-weight: bold;
+   display: inline-block;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
 
 
 
