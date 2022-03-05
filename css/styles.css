@@ -95,6 +95,36 @@ section{
    margin-top: 10px;
    margin-bottom: 10px;
 }
+.procedure{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+
+}
+#headinglist{
+    font-style: italic,;
+}
+.procedure-list{
+    margin: 20px;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+.list{
+    margin-bottom: 20px;
+    margin-left: 30px;
+    position: relative;
+}
+.list:before {
+     content: "";
+     left: -30px;
+     position: absolute;
+     width: 20px;
+     height: 20px;
+     background-image: url("./images/bulletmark5.png");
+     background-size: contain;
+     margin-right: 20px;
+     float: left;    
+}
 
 
 
