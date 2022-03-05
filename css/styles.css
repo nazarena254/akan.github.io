@@ -254,5 +254,15 @@
     font-size: 16px;
     border-radius: 5px;
     margin-top: 15px;
-  }  
+  }
+ #up-button{
+    background-color: #007AF3;
+    border: 0;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 15px;   
+ }   
  
