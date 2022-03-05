@@ -9,3 +9,25 @@
      /* margin: 20px; */
      font-family: Roboto;
   }
+  #nav li{
+    display:inline-block;
+  }
+  .navbar {
+    background-color: white;
+    display: flexbox;
+  }
+  .navbar a {
+    font-weight: .2em; 
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .navbar a:hover {
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+    background-color: #35D6ED;
+  }
