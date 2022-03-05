@@ -1,18 +1,18 @@
 # Title; Akan name
-##### It is a webpage for generating someones Akan name.
+### It is a webpage for generating someones Akan name.
 
 ## Description
 > The Akan name website allows the user to provide the their birthday details. These details should be correct inorder for them to see their Akan name. Akan name is given according to the day of the week you were born as well as your gender.
 
 ## Author
-I am Nazarena Wambura.
+I am Nazarena Wambura.</br>
 [Github](https://github.com/nazarena254)
 
 ## Setup/Installation Requirements
-[x] clone the repository 
-[x] have it in local machine 
-[x] work on it if you like 
-[x] Contributions are always welcome
+* Clone the repository 
+* Have it in local machine 
+* Work on it if you like 
+* Contributions are always welcome
 
 ## Technologies used
 * Javascript
