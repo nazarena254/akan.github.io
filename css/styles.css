@@ -208,11 +208,6 @@
      color: rgb(97, 95, 95);
      letter-spacing: 1px;
  }
- #get{
-   color: whitesmoke;
-   text-shadow: 2px 2px 5px black;
-   margin-bottom: 10px;
- }
  label{
      display: block;
      width: 100%;
@@ -228,7 +223,7 @@
    color: rgb(255, 255, 255);
    font-weight: 600;
    font-size: 18px;
-   
+   padding-left: 10px;
  }
  .form-check-label{
    color: rgb(255, 255, 255);
