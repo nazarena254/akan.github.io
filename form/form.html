@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="description" content="Portfolio sample">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <link href="styles.css" rel="stylesheet" type="text/css">
+         <title>Akan names</title>
+    </head>
+    <body>
+      <!-- <div class="back-to-homepg">
+        <a href="index.html" class="backhomebtn">Back To Homepage</a>
+      </div> -->
+      <script src="javascript/akan.js"></script>
+        <h2 class="heading-form">Akan Names</h2>
+        <h3 class="heading-form">Enter your details in the form below;</h3>
+      <div class="overlay">
+        <div class="container">
+         
+          <form name="myForm" class="form" onsubmit="validate();">
+            <div class="form-group">
+              <label for="number">Year of Birth:</label>
+              <input type="number" class="form-control" id="year" placeholder="Eg: 2020 " name="year">
+            </div>
+            <div class="form-group">
+              <label for="month">Month of Birth:</label>
+              <input type="number" class="form-control" id="month" placeholder="Eg: 3 or 03" name="month">
+            </div>
+            <div class="form-group">
+              <label for="date">Date of Birth:</label>
+              <input type="number" class="form-control" id="date" placeholder="Eg: 1 or 01" name="date">
+            </div>
+            <div class="form-group">
+              <label for="month">Gender</label><br>
+              <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
+                </label>
+              </div>
+              <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary" onclick="findName();">Find Akan Name</button>
+            <br>
+          </form>
+          <p id="results"> </p>
+        </div>
+    </div>
+    
+    <div class="back-to-homepg">
+      <a href="index.html" class="backhomebtn">Back To Homepage</a>
+    </div>
+
+    </body>
+
+    
+</html>
