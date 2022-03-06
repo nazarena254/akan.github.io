@@ -1,7 +1,9 @@
 var year, CC, YY, MM, DD, d, dayValue;
-var dayNames = ["Sunday","Monday","Tuesday","Wednesday", "Thursday", "Friday","Saturday" ];
-var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw", "Kofi","Kwame"];
+
 var femaleNames = ["Akosua","Adwoa","Abenaa","Akua"," Yaa","Afua","Ama"];
+var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw", "Kofi","Kwame"];
+var dayNames = ["Sunday","Monday","Tuesday","Wednesday", "Thursday", "Friday","Saturday" ];
+
 
 function validate() {
   var genders = document.getElementsByName("gender");
@@ -28,9 +30,9 @@ function validate() {
   }   
   else{
     return true ;
-  }
-  
+  }  
 }
+
      // formula for determining which day of the week you were born
 function calculateDayValue(){
   year = document.getElementById("year").value;
@@ -41,6 +43,11 @@ function calculateDayValue(){
   d = ( ( (CC/4) -2*CC-1) + ( (5*YY/4) ) + ((26*(MM+1)/10) ) + DD)%7;
   console.log(d);
   return (Math.floor(d));
+}
+
+function findName(){
+  dayValue = calculateDayValue();
+  getGender();
 }
 
 function getGender(){
@@ -104,8 +111,4 @@ function getGender(){
     default:
           
   }
-}
-function findName(){
-  dayValue = calculateDayValue();
-  getGender();
 }
